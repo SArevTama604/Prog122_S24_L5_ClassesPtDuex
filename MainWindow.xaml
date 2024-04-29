@@ -1,0 +1,55 @@
+﻿<Window
+    x:Class="Prog122_S24_L5_ClassesPtDuex.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Prog122_S24_L5_ClassesPtDuex"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    Height="450"
+    Width="800">
+    <Grid>
+        <StackPanel
+            Margin="10">
+            <TextBlock
+                Text="Order ID:"
+                FontWeight="Bold" />
+            <TextBlock
+                x:Name="orderIdTextBlock" />
+
+            <TextBlock
+                Text="Name:"
+                FontWeight="Bold" />
+            <TextBlock
+                x:Name="nameTextBlock" />
+
+            <TextBlock
+                Text="Director:"
+                FontWeight="Bold" />
+            <TextBlock
+                x:Name="directorTextBlock" />
+
+            <TextBlock
+                Text="Products:"
+                FontWeight="Bold" />
+            <TextBox
+                x:Name="productTextBox"
+                TextWrapping="Wrap"
+                VerticalScrollBarVisibility="Auto"
+                Height="150" />
+
+            <TextBlock
+                Text="Total Price:"
+                FontWeight="Bold" />
+            <TextBlock
+                x:Name="totalPriceTextBlock" />
+
+            <TextBlock
+                Text="Price:"
+                FontWeight="Bold" />
+            <TextBlock
+                x:Name="priceTextBlock" />
+        </StackPanel>
+    </Grid>
+</Window>
